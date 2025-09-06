@@ -30,8 +30,11 @@ Create an interactive navigation menu that changes color or style when scrolled 
 ## 📁 Project Structure
 SCT_WD_1/
 ├── index.html # Main landing page
+
 ├── style.css # Styles with responsive design
+
 ├── script.js # Interactive functionality
+
 ├── README.md # Project documentation
 └── assets/
 ├── logo-dark.png # Dark theme logo
@@ -56,4 +59,5 @@ SCT_WD_1/
 ---
 
 **Submitted for SkillCraft Technology Internship Program**
+
 
