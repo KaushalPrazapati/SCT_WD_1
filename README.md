@@ -25,7 +25,7 @@ Create an interactive navigation menu that changes color or style when scrolled 
 - Google Fonts
 
 ## 🚀 Live Demo
-[View Live Website](https://skillcraftacademy.netlify.app/))
+([View Live Website](https://skillcraftacademy.netlify.app/))
 
 ## 📁 Project Structure
 SCT_WD_1/
@@ -63,6 +63,7 @@ SCT_WD_1/
 ---
 
 **Submitted for SkillCraft Technology Internship Program**
+
 
 
 
