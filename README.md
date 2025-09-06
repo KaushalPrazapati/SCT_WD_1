@@ -36,9 +36,13 @@ SCT_WD_1/
 ├── script.js # Interactive functionality
 
 ├── README.md # Project documentation
+
 └── assets/
+
 ├── logo-dark.png # Dark theme logo
+
 ├── logo-light.png # Light theme logo
+
 └── hero-bg.jpg # Hero background image
 
 
@@ -59,5 +63,6 @@ SCT_WD_1/
 ---
 
 **Submitted for SkillCraft Technology Internship Program**
+
 
 
