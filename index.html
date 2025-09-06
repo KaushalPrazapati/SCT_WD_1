@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SkillCraft Academy</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+  <!-- Left Logo -->
+  <div class="logo">
+    <img src="assets/logo-dark.png" alt="SkillCraft Logo" id="logo">
+  </div>
+
+  <!-- Mobile menu button -->
+  <div class="menu-toggle" id="mobile-menu">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </div>
+
+  <!-- Center: Nav Links + Toggle -->
+  <div class="nav-center">
+    <ul class="nav-links">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#courses">Courses</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-buttons">
+        <a href="signin.html" class="btn btn-outline">Sign In</a>
+      <button id="themeToggle">🌙</button>
+    </div>
+  </div>
+</nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero" style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('assets/hero-bg.jpg') no-repeat center center/cover;">
+  <div class="hero-content">
+    <h1>Build. Learn. Grow.</h1>
+    <p>Your journey to becoming a skilled developer starts here.</p>
+    <a href="#courses" class="btn">Explore Courses <i class="fas fa-arrow-right"></i></a>
+  </div>
+  <div class="hero-visual">
+    <div class="hero-visual">
+      <div class="floating-card">
+        <i class="fas fa-code"></i>
+        <h3>Web Development</h3>
+      </div>
+      <div class="floating-card">
+        <i class="fas fa-mobile-alt"></i>
+        <h3>App Development</h3>
+      </div>
+      <div class="floating-card">
+        <i class="fas fa-shield-alt"></i>
+        <h3>Ethical Hacking</h3>
+      </div>
+    </div>
+  </section>
+  
+  
+  <!-- Courses Section -->
+<section id="courses" class="section">
+  <div class="container">
+    <h2 class="section-title">Our Courses</h2>
+    <div class="course-list">
+      <div class="course-card">
+        <div class="course-icon">
+          <i class="fas fa-laptop-code"></i>
+        </div>
+        <h3>Web Development</h3>
+        <p>Master HTML, CSS, JavaScript and modern frameworks to build responsive websites.</p>
+        <a href="#" class="course-btn">Learn More</a>
+      </div>
+      <div class="course-card">
+        <div class="course-icon">
+          <i class="fas fa-mobile"></i>
+        </div>
+        <h3>App Development</h3>
+        <p>Create iOS and Android apps with React Native, Flutter and native technologies.</p>
+        <a href="#" class="course-btn">Learn More</a>
+      </div>
+      <div class="course-card">
+        <div class="course-icon">
+          <i class="fas fa-user-secret"></i>
+        </div>
+        <h3>Ethical Hacking</h3>
+        <p>Learn cybersecurity techniques to protect systems and networks from vulnerabilities.</p>
+        <a href="#" class="course-btn">Learn More</a>
+      </div>
+
+      <div class="course-card">
+        <div class="course-icon">
+          <i class="fas fa-brain"></i>
+        </div>
+        <h3>AI & ML</h3>
+        <p>Master Artificial Intelligence and Machine Learning algorithms, neural networks, and data modeling.</p>
+        <a href="#" class="course-btn">Learn More</a>
+      </div>
+      <div class="course-card">
+        <div class="course-icon">
+          <i class="fas fa-chart-line"></i>
+        </div>
+        <h3>Data Science</h3>
+        <p>Learn to extract insights from data using statistical analysis, visualization, and big data tools.</p>
+        <a href="#" class="course-btn">Learn More</a>
+      </div>
+      <div class="course-card">
+        <div class="course-icon">
+          <i class="fas fa-project-diagram"></i>
+        </div>
+        <h3>System Design</h3>
+        <p>Design scalable systems, microservices architecture, and cloud infrastructure solutions.</p>
+        <a href="#" class="course-btn">Learn More</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Us</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>SkillCraft empowers learners through real-world projects and mentorship. We believe in learning by doing, with industry experts guiding your journey.</p>
+          <div class="stats">
+            <div class="stat">
+              <h4>500+</h4>
+              <p>Students Trained</p>
+            </div>
+            <div class="stat">
+              <h4>98%</h4>
+              <p>Success Rate</p>
+            </div>
+            <div class="stat">
+              <h4>25+</h4>
+              <p>Expert Mentors</p>
+            </div>
+          </div>
+        </div>
+        <div class="about-image">
+          <div class="image-placeholder">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title">Contact Us</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3>Get in Touch</h3>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>Mumbai, India</p>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <p>+91 9471640485</p>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <p>info@skillcraft.com</p>
+          </div>
+        </div>
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <input type="subject" placeholder="Subject" required>
+          <textarea placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <img src="assets/logo-dark.png" alt="SkillCraft Logo" class="footer-logo">
+          <p>Empowering the next generation of developers through quality education.</p>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Follow Us</h4>
+          <div class="social-icons">
+            <a href="https://github.com/KaushalPrazapati"><i class="fab fa-github"></i></a>
+            <a href="https://instagram.com/KaushalPrazapati"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/kaushalprazapati/"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-right">
+            <p>© 2025 SkillCraft Academy | All Rights Reserved</p>
+        </div>
+
+    <div class="footer-left">
+        <p class="credit">Crafted with ❤️ by <a href="https://www.linkedin.com/in/kaushalprazapati/">Kaushal</a></p>
+    </div>
+  
+</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
